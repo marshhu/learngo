@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	if contents,err := ioutil.ReadFile("abc.txt");err != nil{
+	if contents, err := ioutil.ReadFile("abc.txt"); err != nil {
 		fmt.Println(err)
-	}else{
-		fmt.Printf("%s",contents)
+	} else {
+		fmt.Printf("%s", contents)
 	}
 }
