@@ -19,6 +19,7 @@ func eval(a, b int, op string) int {
 	return result
 }
 
+//switch可以不要表达式
 func grade(score int) string {
 	g := ""
 	switch {
